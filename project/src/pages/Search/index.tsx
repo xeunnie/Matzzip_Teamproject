@@ -1,5 +1,10 @@
+import Entry from './entry';
+import Layout from './layout';
+
 export default function Search() {
     return(
-        <div>search</div>
+        <Layout>
+            <Entry />
+        </Layout>
     )
 } 

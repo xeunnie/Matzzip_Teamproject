@@ -1,5 +1,10 @@
+import Entry from './entry';
+import Layout from './layout';
+
 export default function Map() {
     return(
-        <div>map</div>
+        <Layout>
+            <Entry />
+        </Layout>
     )
 } 

@@ -1,5 +1,10 @@
+import Entry from './entry';
+import Layout from './layout';
+
 export default function Record() {
     return(
-        <div>record</div>
+        <Layout>
+            <Entry />
+        </Layout>
     )
 } 
