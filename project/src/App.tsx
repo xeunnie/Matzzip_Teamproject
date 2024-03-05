@@ -2,17 +2,17 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import { Route, Routes, useNavigate} from 'react-router-dom';
 // import { PATH } from '../constants/route';
-import Home from '../pages/Home';
-import Map from '../pages/Map';
-import Search from '../pages/Search';
-import Record from '../pages/Record';
+import Home from './pages/Home';
+import Map from './pages/Map';
+import Search from './pages/Search';
+import Record from './pages/Record';
 
 export default function App() {
   let navigate= useNavigate()
   return (
     <div>
       <Navbar>
-        <Navbar.Brand href='#home'>home</Navbar.Brand>
+        <Navbar.Brand href='/'>home</Navbar.Brand>
         <Container>
           <Nav>
             <Nav.Link onClick={()=>{navigate('/')}}>Home</Nav.Link>

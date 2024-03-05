@@ -4,8 +4,10 @@ import React from 'react';
 
 export default function Search() {
     return(
-        <Layout>
+        <div>
+            <Layout/>
             <Entry />
-        </Layout>
+        </div>
+
     )
 } 

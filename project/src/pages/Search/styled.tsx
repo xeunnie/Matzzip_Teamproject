@@ -1,4 +1,5 @@
 import { styled } from '@mui/material/styles';
+import React from 'react';
 
 export const Container = styled('div')({
     width: '100%',

@@ -1,11 +1,11 @@
 import React from 'react';
 
-type LayoutProps = {
-    children: JSX.Element;
-  };
+// type LayoutProps = {
+//     children: JSX.Element;
+//   };
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout() {
     return(
-        <div>layout</div>
+        <div>search</div>
     )
 }
