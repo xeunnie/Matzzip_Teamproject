@@ -1,4 +1,5 @@
 import React from 'react';
+import BottomMenu from "../../components/bottomMenu";
 
 // type LayoutProps = {
 //     children: JSX.Element;
@@ -6,6 +7,9 @@ import React from 'react';
 
 export default function Layout() {
     return(
-        <div>search</div>
+        <div>
+            search
+            <BottomMenu/>
+        </div>
     )
 }
