@@ -5,7 +5,7 @@ import React from 'react';
 export default function Search() {
     return(
         <div>
-            <Layout/>
+            <Layout></Layout>
             <Entry />
         </div>
 
