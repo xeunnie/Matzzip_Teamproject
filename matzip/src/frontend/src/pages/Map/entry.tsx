@@ -13,6 +13,11 @@ export default function Entry() {
   const imageSize = { width: 22, height: 26 }
   const spriteSize = { width: 36, height: 98 }
   const mapCatgory = [
+     {
+      title : '전체',
+      id : 'allMenu',
+      cateogry : 'all'
+    },
     {
       title : '커피숍',
       id : 'coffeeMenu',
@@ -64,37 +69,37 @@ export default function Entry() {
   ]
   const carparkOrigin = { x: 10, y: 72 }
 
-  const [selectedCategory, setSelectedCategory] = useState("coffee");
+  const [selectedCategory, setSelectedCategory] = useState("all");
 
   useEffect(() => {
+    const allMenu = document.getElementById('allMenu');
     const coffeeMenu = document.getElementById('coffeeMenu');
     const storeMenu = document.getElementById('storeMenu');
     const carparkMenu = document.getElementById('carparkMenu');
 
-    if (coffeeMenu && storeMenu && carparkMenu) {
-    if (selectedCategory === "coffee") {
-      // 커피숍 카테고리를 선택된 스타일로 변경하고
-      coffeeMenu.className = "menu_selected"
-
-      // 편의점과 주차장 카테고리는 선택되지 않은 스타일로 바꿉니다
-      storeMenu.className = ""
-      carparkMenu.className = ""
-    } else if (selectedCategory === "store") {
-      // 편의점 카테고리가 클릭됐을 때
-
-      // 편의점 카테고리를 선택된 스타일로 변경하고
-      coffeeMenu.className = ""
-      storeMenu.className = "menu_selected"
-      carparkMenu.className = ""
-    } else if (selectedCategory === "carpark") {
-      // 주차장 카테고리가 클릭됐을 때
-
-      // 주차장 카테고리를 선택된 스타일로 변경하고
-      coffeeMenu.className = ""
-      storeMenu.className = ""
-      carparkMenu.className = "menu_selected"
+    if (allMenu && coffeeMenu && storeMenu && carparkMenu) {
+      if (selectedCategory === "all") {
+        allMenu.className = "menu_selected";
+        coffeeMenu.className = "";
+        storeMenu.className = "";
+        carparkMenu.className = "";
+      } else if (selectedCategory === "coffee") {
+        allMenu.className = "";
+        coffeeMenu.className = "menu_selected";
+        storeMenu.className = "";
+        carparkMenu.className = "";
+      } else if (selectedCategory === "store") {
+        allMenu.className = "";
+        coffeeMenu.className = "";
+        storeMenu.className = "menu_selected";
+        carparkMenu.className = "";
+      } else if (selectedCategory === "carpark") {
+        allMenu.className = "";
+        coffeeMenu.className = "";
+        storeMenu.className = "";
+        carparkMenu.className = "menu_selected";
+      }
     }
-  }
   }, [selectedCategory])
 	return(
 		<Container>
@@ -113,7 +118,7 @@ export default function Entry() {
 		      }}
 		      level={3} // 지도의 확대 레벨
 		    >
-          {selectedCategory === "coffee" &&
+          {(selectedCategory === "coffee" || selectedCategory === 'all') &&
             coffeePositions.map((position) => (
               <MapMarker
                 key={`coffee-${position.lat},${position.lng}`}
@@ -128,7 +133,7 @@ export default function Entry() {
                 }}
               />
             ))}
-          {selectedCategory === "store" &&
+          {(selectedCategory === "store" || selectedCategory === 'all') &&
             storePositions.map((position) => (
               <MapMarker
                 key={`store-${position.lat},${position.lng}`}
@@ -143,7 +148,7 @@ export default function Entry() {
                 }}
               />
             ))}
-          {selectedCategory === "carpark" &&
+          {(selectedCategory === "carpark" || selectedCategory === 'all') &&
             carparkPositions.map((position) => (
               <MapMarker
                 key={`carpark-${position.lat},${position.lng}`}
@@ -165,7 +170,11 @@ export default function Entry() {
             mapCatgory.map((category, index) => {
               return(
                 <li>
-                  <CategoryBtn key={index} id={category.id} onClick={() => setSelectedCategory(`${category.cateogry}`)}>
+                  <CategoryBtn 
+                  key={index} 
+                  id={category.id} onClick={() => setSelectedCategory(`${category.cateogry}`)}
+                  className={selectedCategory === category.cateogry ? 'menu_selected' : ''}
+                  >
                     {category.title}
                   </CategoryBtn>
                 </li>
