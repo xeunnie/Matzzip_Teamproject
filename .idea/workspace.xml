@@ -4,13 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa37afa0-9990-4215-9b21-42b705445636" name="Changes" comment="" />
+    <list default="true" id="fa37afa0-9990-4215-9b21-42b705445636" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/constants/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Home/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/entry.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/styled.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/entry.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/styled.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/entry.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/styled.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -28,14 +70,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/chloechoi/teamproject&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/seung-01&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chloechoi/Desktop/teamproject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/chloechoi/teamproject/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/chloechoi/Desktop/teamproject/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -49,6 +91,9 @@
       <updated>1709617051638</updated>
       <workItem from="1709617053280" duration="2103000" />
       <workItem from="1709736005102" duration="171000" />
+      <workItem from="1709737682501" duration="644000" />
+      <workItem from="1710149171177" duration="2313000" />
+      <workItem from="1710165592657" duration="428000" />
     </task>
     <servers />
   </component>
