@@ -1,14 +1,14 @@
 import React from 'react';
 import BottomMenu from "../../components/bottomMenu";
 
-// type LayoutProps = {
-//     children: JSX.Element;
-//   };
+type LayoutProps = {
+    children: JSX.Element;
+  };
 
-export default function Layout() {
+export default function Layout({children}:LayoutProps) {
     return(
         <div>
-            search
+            {children}
             <BottomMenu/>
         </div>
     )
