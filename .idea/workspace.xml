@@ -6,34 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fa37afa0-9990-4215-9b21-42b705445636" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/constants/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Home/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/entry.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Map/styled.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/entry.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Record/styled.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/entry.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/src/pages/Search/styled.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matzip/src/frontend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/main/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/matzip/src/main/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/main/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/matzip/src/main/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/main/frontend/src/components/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/matzip/src/main/frontend/src/components/styled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/main/frontend/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/matzip/src/main/frontend/src/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/main/frontend/src/pages/Search/entry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/matzip/src/main/frontend/src/pages/Search/entry.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matzip/src/main/frontend/src/pages/Search/styled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/matzip/src/main/frontend/src/pages/Search/styled.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +72,7 @@
       <workItem from="1709737682501" duration="644000" />
       <workItem from="1710149171177" duration="2313000" />
       <workItem from="1710165592657" duration="428000" />
+      <workItem from="1710752603119" duration="6347000" />
     </task>
     <servers />
   </component>
