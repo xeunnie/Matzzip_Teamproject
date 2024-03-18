@@ -7,6 +7,9 @@ export const MenuContainer = styled('div')({
     display: 'flex',
     padding: '10px',
     justifyContent: 'space-around',
+    position: 'fixed',
+    bottom: 0,
+    zIndex: 100,
     backgroundColor: "purple",
     boxSizing: 'border-box',
     '& img': {
