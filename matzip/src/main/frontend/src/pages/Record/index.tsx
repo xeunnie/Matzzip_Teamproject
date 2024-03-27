@@ -6,7 +6,6 @@ export default function Record() {
     return(
         <Layout>
             <Entry />
-            
         </Layout>
         
     )
