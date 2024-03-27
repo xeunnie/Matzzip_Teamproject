@@ -7,7 +7,7 @@ type LayoutProps = {
 export default function Layout({ children }: LayoutProps) {
     return(
         <div>
-            <HeaderMenu name="리뷰 작성" />
+            <HeaderMenu name="마이페이지" />
             { children }
             <BottomMenu/>
         </div>

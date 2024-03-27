@@ -42,16 +42,30 @@ export const HeaderBox = styled('div')({
     position: 'absolute',
     top: '0',
     left: '0',
-    width: '30px',
-    height: '30px',
+    width: '100%',
+    height: '50px',
     backgroundColor: '#fff',
     padding: '10px',
+    boxSizing: 'border-box',
 });
 
 export const BackBtn = styled('button')({
-    width: '100%',
-    height: '100%',
+    position: 'absolute',
+    top: '10px',
+    left: '10px',
+    width: '30px',
+    height: '30px',
+    padding: '0',
     background: `url(${BackIcon}) no-repeat center center`,
     backgroundSize: 'contain',
     border: 'none',
+    float: 'left',
+});
+
+export const HeaderTitle = styled('p')({
+    textAlign: 'center',
+    fontSize: '20px',
+    fontWeight: '600',
+    margin: '0',
+    lineHeight: '30px',
 });
